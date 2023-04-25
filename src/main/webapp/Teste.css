@@ -1,0 +1,65 @@
+body { /*COLOCA A IMAGEM NO FUNDO*/
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url('https://www.webrun.com.br/wp-content/uploads/2017/06/AdobeStock_288854123-768x512.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+main {
+    text-align: center;
+    width: 100%;
+        display: flex;
+}
+
+/*COLOCA CADA ITEM DO LADO DO OUTRO*/
+.menu-content .list-itens {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+/*faz uma lista com o menu*/
+.menu-content .list-itens a {
+    text-decoration: none;
+    color: red;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+
+}
+label {
+  display: block;
+  margin-bottom:12px;
+
+}
+
+.second-text { /*A FRASE O CORPO ALCANÇA...-–>*/
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+     text-align:center
+        display: flex;
+}
+
+
+footer{
+width: 100%;
+    padding: 15px; /*tamanho*/
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background: #09101D;
+    color: red;
+    box-sizing: border-box;
+    position: absolute;
+
+
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
