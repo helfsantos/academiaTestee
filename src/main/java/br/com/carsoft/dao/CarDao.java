@@ -50,8 +50,8 @@ public class CarDao {
                 String carId = resultSet.getString("id");
                 String carName = resultSet.getString("name");
                 String carRepeticao = resultSet.getString("repeticao");
-
-                Car car = new Car(carId, carName);
+                String carCarga = resultSet.getString("carga");
+                Car car = new Car(carId, carName, carRepeticao, carCarga);
 
                 cars.add(car);
 

@@ -30,17 +30,19 @@
 <body>
 
 
-  <div class="form">
-      <form method="post">
+  <div>
+      <form class = "form" method="post">
     <h1>Cars</h1>
 
-
+<div class="id">
  <select>
     <c:forEach var="car" items="${cars}">
     <option value="${car.id}">${car.id}</option>
 
     </c:forEach>
  </select>
+ </div>
+
  <label>Escolha o exercicio 2:</label>
   <select>
      <c:forEach var="car" items="${cars}">
@@ -48,6 +50,8 @@
 
      </c:forEach>
   </select>
+
+
 <label>Escolha a quantidade de repeticao 2:</label>
     <select>
        <c:forEach var="car" items="${cars}">
@@ -56,10 +60,18 @@
        </c:forEach>
     </select>
 
+    <label>Escolha a quantidade de CARGA 2:</label>
+        <select>
+           <c:forEach var="car" items="${cars}">
+           <option value="${car.carga}">${car.carga}</option>
 
+           </c:forEach>
+        </select>
 
+    <button type="submit" class = "botao" form="form" value="Submit">CADASTRAR</button>
 
 </form>
+
   </div>
 </body>
 </html>

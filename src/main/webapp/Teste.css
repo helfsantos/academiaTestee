@@ -4,11 +4,13 @@ body { /*COLOCA A IMAGEM NO FUNDO*/
     background-size: cover;
     background-position-y: 0px;
     background-repeat: no-repeat;
+    color: white;
 }
 main {
     text-align: center;
     width: 100%;
         display: flex;
+        color: white;
 }
 
 /*COLOCA CADA ITEM DO LADO DO OUTRO*/
@@ -16,6 +18,7 @@ main {
     display: flex;
     list-style: none;
     gap: 10px;
+    color: white;
 }
 /*faz uma lista com o menu*/
 .menu-content .list-itens a {
@@ -23,6 +26,7 @@ main {
     color: red;
     padding: 1.5rem;
     transform: 2ms ease-in;
+    color: white;
 
 }
 label {
@@ -59,6 +63,40 @@ width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.botao {
+    font-size: 1.2em;
+    background: #000000;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 05%;
+    margin-right: -50%;
+
+}
+
+.form {
+margin-right: 10%;
+top: 90%;
+left: 50%;
+position: relative;
+position_center;
+font-family: helvetica;
+color: white;
+border-color: green;
+
+
+
+}
+.id{
+color: white;
+
+
 }
 
 
